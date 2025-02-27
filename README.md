@@ -14,6 +14,14 @@ Este projeto é uma aplicação web simples que permite aos usuários comparar d
 - JavaScript
 
 ## 📂 Estrutura do Projeto
+Atividade_1/
+│── index.html          # Página principal
+│── atividade_1.js      # Lógica da aplicação
+│── styles/
+│   └── style.css       # Estilos da página
+│── image/
+│   ├── aceitar.png     # Ícone do botão de comparar
+│   └── apagar.png      # Ícone do botão de limpar
 
 ## 🛠 Como Executar o Projeto
 1. Faça o download ou clone este repositório.
