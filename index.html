@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Atividade_1/styles/style.css">
+  <title>Comparador de Valores e Tipos</title>
+
+</head>
+
+<body>
+  <h1>Comparador de Valores e Tipos</h1>
+  
+  <div class="instrucoes">
+    <p>Digite dois valores nos campos abaixo para comparar:</p>
+    <ul>
+      <li>Se têm o mesmo valor</li>
+      <li>Se são do mesmo tipo (número ou texto)</li>
+    </ul>
+  </div>
+  
+  <section class="secao">
+    <div class="input-container" id="entrada">
+      <div class="input-label">
+        <label for="num1">Valor 1:</label>
+        <input type="text" id="num1" placeholder="Ex: 10">
+      </div>
+      
+      <div class="input-label">
+        <label for="string1">Valor 2:</label>
+        <input type="text" id="string1" placeholder="Ex: '10'">
+      </div>
+    </div>
+  </section>
+  
+  <div class="botao-container">
+    <button class="testar" id="mostrar">
+      <img src="/Atividade_1/image/aceitar.png" alt="testar">
+      Comparar
+    </button>
+    
+    <button class="testar" id="apagar">
+      <img src="/Atividade_1/image/apagar.png" alt="apagar">
+      Limpar
+    </button>
+  </div>
+  
+  <div id="conteudo">
+    <!-- O resultado será exibido aqui -->
+  </div>
+  
+  <script src="./atividade_1.js"></script>
+</body>
+</html>
